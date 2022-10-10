@@ -1,13 +1,50 @@
-# Practicum---Projects
-Here is a compliation of  Data Science projects I completed while in the Data Science bootcamp in Practicum by Yandex. They involve Data Preprocessing, Analysis and Visualization, Statistical Analysis, Machine Learning, Machine Learning for texts, Time Series, Computer Vision, etc.
+# Statistical data analysis
+You work as an analyst for "Megaline", a state mobile operator. The company offers its clients two prepaid plans, Surf and Ultimate. The commercial department would like to know which of the plans is more profitable in order to adjust the advertising budget. You are going to carry out a preliminary analysis of the plans based on a relatively small client selection. You'll have the data on 500 "Megaline" clients, specifically, who the clients are, where they are from, which plan they use, the number of calls made and SMS they sent in 2018. You have to analyse clients' behavior and work out the most profitable prepaid plan.
+# Data
+## The users table (data on users):
 
-| Project               | Description                                                                                 | Libraries                      |
-|:--------------------- |:------------------------------------------------------------------------------------------- |:------------------------------ |
-|[Credit Score Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-1 "Credit Score Analysis")|Utilizing different metrics to determine the likelihood that a customer defaults on a loan|*pandas, ntlk*|
-|[Vehicle Price Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-2 "Vehicle Price Analysis")|Studying vehicle ads to determine what factors influence vehicle price|*pandas, matplotlib, numpy*|
-|[Phone Plan Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-3 "Phone Plan Analysis")|Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
-|[Video Game Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-4 "Video Game Analysis")|Identifying patterns that determine a game's success, creating a user profile for each target market, and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
-|[Taxi Company Analysis](https://github.com/cbngwajr/yandex-practicum/tree/Project-5 "Taxi Company Analysis")|Identifying the top taxi companies, neighborhoods with the most drop-offs, and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
-|[Telecom Plans ML Model](https://github.com/cbngwajr/yandex-practicum/tree/Project-6 "Telecom Plans ML Model")|Studying customer behavior and building a machine learning model that recommends phones plans|*pandas, sklearn*|
-|[Bank Customers Model](https://github.com/cbngwajr/yandex-practicum/tree/Project-7 "Bank Customers Model")|Creating a classification model to predict customer churn from an imbalanced dataset|*pandas, sklearn*|
+- user_id — unique user identifier
+- first_name — user's name
+- last_name — user's last name
+- age — user's age (years)
+- reg_date — subscription date (dd, mm, yy)
+- churn_date — the date the user stopped using the service (if the value is missing, the calling plan was being used when this database was extracted)
+- city — user's city of residence
+- plan — calling plan name
 
+## The calls table (data on calls):
+
+- id — unique call identifier
+- call_date — call date
+- duration — call duration (in minutes)
+- user_id — the identifier of the user making the call
+
+## The messages table (data on texts):
+
+- id — unique text message identifier
+- message_date — text message date
+- user_id — the identifier of the user sending the text
+
+## The internet table (data on web sessions):
+
+- id — unique session identifier
+- mb_used — the volume of data spent during the session (in megabytes)
+- session_date — web session date
+- user_id — user identifier
+
+## The plans table (data on the plans):
+
+- plan_name — calling plan name
+- usd_monthly_fee — monthly charge in US dollars
+- minutes_included — monthly minute allowance
+- messages_included — monthly text allowance
+- mb_per_month_included — data volume allowance (in megabytes)
+- usd_per_minute — price per minute after exceeding the package limits (e.g., if the package includes 100 minutes, the 101st minute will be charged)
+- usd_per_message — price per text after exceeding the package limits
+- usd_per_gb — price per extra gigabyte of data after exceeding the package limits (1 GB = 1024 megabytes)
+
+# Goal
+Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing
+
+# Libraries
+*pandas, matplotlib, scipy, numpy, nltk*
