@@ -3,7 +3,7 @@ Here is a compliation of  Data Science projects I completed while in the Data Sc
 
 | Project               | Description                                                                                 | Libraries                      |
 |:--------------------- |:------------------------------------------------------------------------------------------- |:------------------------------ |
-|[Credit Score Analysis](https://github.com/wnewsom96/yandex-practicum/tree/Project-1 "Credit Score Analysis")|Utilizing different metrics to determine the likelihood that a customer defaults on a loan|*pandas, ntlk*|
+|[Credit Score Analysis](https://github.com/Wnewsom96/Practicum---Projects/tree/Project-1 "Credit Score Analysis")|Utilizing different metrics to determine the likelihood that a customer defaults on a loan|*pandas, ntlk*|
 |[Vehicle Price Analysis](https://github.com/wnewsom96/yandex-practicum/tree/Project-2 "Vehicle Price Analysis")|Studying vehicle ads to determine what factors influence vehicle price|*pandas, matplotlib, numpy*|
 |[Phone Plan Analysis](https://github.com/wnewsom96/yandex-practicum/tree/Project-3 "Phone Plan Analysis")|Selecting the plan with the highest potential revenue for different target markets and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
 |[Video Game Analysis](https://github.com/wnewsom96/yandex-practicum/tree/Project-4 "Video Game Analysis")|Identifying patterns that determine a game's success, creating a user profile for each target market, and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
