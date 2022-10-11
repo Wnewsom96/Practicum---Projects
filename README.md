@@ -10,4 +10,4 @@ Here is a compliation of  Data Science projects I completed while in the Data Sc
 |[Taxi Company Analysis](https://github.com/Wnewsom96/yandex-practicum/tree/Project-5 "Taxi Company Analysis")|Identifying the top taxi companies, neighborhoods with the most drop-offs, and conducting hypothesis testing|*pandas, matplotlib, scipy, numpy, nltk*|
 |[Telecom Plans ML Model](https://github.com/Wnewsom96/yandex-practicum/tree/Project-6 "Telecom Plans ML Model")|Studying customer behavior and building a machine learning model that recommends phones plans|*pandas, sklearn*|
 |[Bank Customers Model](https://github.com/Wnewsom96/yandex-practicum/tree/Project-7 "Bank Customers Model")|Creating a classification model to predict customer churn from an imbalanced dataset|*pandas, sklearn*|
-
+|[Oil Well Model](https://github.com/Wnewsom96/yandex-practicum/tree/Project-8 "Oil Well Model")|Analyzing data from several petroleum reservoir regions and oil wells to calculate the profitability and risk of loss of developing a new well in each region|*pandas, numpy, matplotlib, seaborn*|
